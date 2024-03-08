@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  #expense-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  
+  #expense-form input {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  #expense-table {
+    width: 500px;
+    border-collapse: collapse;
+  }
+  
+  #expense-table th,
+  #expense-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  #expense-table th {
+    background-color: #f2f2f2;
+  }
+  
+  #expense-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
